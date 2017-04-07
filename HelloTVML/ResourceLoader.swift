@@ -5,7 +5,7 @@
 
 import JavaScriptCore
 
-@obj protocol ResourceLoaderExport: JSExport {
+@objc protocol ResourceLoaderExport: JSExport {
     static func create() -> ResourceLoaderExport
     func loadBundleResource(_ name: String) -> String
 }
