@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <document>
-    <alertTemplate>
+    <alertTemplate style="background-color: rgba(15, 25, 35, 0.4">
         <title>Whats's Gucci?</title>
+        <description>Watch our amazing Hello TVML video!</description>
+        <button id="play">
+            <text>Play</text>
+        </button>
+        <button id="cancel">
+            <text>Cancel</text>
+        </button>
     </alertTemplate>
 </document>
