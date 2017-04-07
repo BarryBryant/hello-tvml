@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		273C7F3E1E96DF7500F9D946 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273C7F3D1E96DF7500F9D946 /* AppDelegate.swift */; };
+		273C7F421E96DF7600F9D946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273C7F411E96DF7600F9D946 /* Assets.xcassets */; };
+		273C7F4D1E96DF7600F9D946 /* HelloTVMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273C7F4C1E96DF7600F9D946 /* HelloTVMLTests.swift */; };
+		273C7F581E96DF7600F9D946 /* HelloTVMLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273C7F571E96DF7600F9D946 /* HelloTVMLUITests.swift */; };
+		273C7F661E96FE6400F9D946 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 273C7F651E96FE6400F9D946 /* main.js */; };
+		86AB93FC5CC555585B4D9ED2 /* ResourceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB9B1FD60E60E67019C096 /* ResourceLoader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		273C7F491E96DF7600F9D946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273C7F321E96DF7500F9D946 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 273C7F391E96DF7500F9D946;
+			remoteInfo = HelloTVML;
+		};
+		273C7F541E96DF7600F9D946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273C7F321E96DF7500F9D946 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 273C7F391E96DF7500F9D946;
+			remoteInfo = HelloTVML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		273C7F3A1E96DF7500F9D946 /* HelloTVML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloTVML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		273C7F3D1E96DF7500F9D946 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		273C7F411E96DF7600F9D946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		273C7F431E96DF7600F9D946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273C7F481E96DF7600F9D946 /* HelloTVMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloTVMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		273C7F4C1E96DF7600F9D946 /* HelloTVMLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloTVMLTests.swift; sourceTree = "<group>"; };
+		273C7F4E1E96DF7600F9D946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273C7F531E96DF7600F9D946 /* HelloTVMLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloTVMLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		273C7F571E96DF7600F9D946 /* HelloTVMLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloTVMLUITests.swift; sourceTree = "<group>"; };
+		273C7F591E96DF7600F9D946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273C7F651E96FE6400F9D946 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		86AB9B1FD60E60E67019C096 /* ResourceLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceLoader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		273C7F371E96DF7500F9D946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273C7F451E96DF7600F9D946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273C7F501E96DF7600F9D946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		273C7F311E96DF7500F9D946 = {
+			isa = PBXGroup;
+			children = (
+				273C7F3C1E96DF7500F9D946 /* HelloTVML */,
+				273C7F4B1E96DF7600F9D946 /* HelloTVMLTests */,
+				273C7F561E96DF7600F9D946 /* HelloTVMLUITests */,
+				273C7F3B1E96DF7500F9D946 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		273C7F3B1E96DF7500F9D946 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				273C7F3A1E96DF7500F9D946 /* HelloTVML.app */,
+				273C7F481E96DF7600F9D946 /* HelloTVMLTests.xctest */,
+				273C7F531E96DF7600F9D946 /* HelloTVMLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		273C7F3C1E96DF7500F9D946 /* HelloTVML */ = {
+			isa = PBXGroup;
+			children = (
+				273C7F3D1E96DF7500F9D946 /* AppDelegate.swift */,
+				273C7F411E96DF7600F9D946 /* Assets.xcassets */,
+				273C7F431E96DF7600F9D946 /* Info.plist */,
+				86AB9E2E185A3357E82870B6 /* Static App */,
+				86AB9B1FD60E60E67019C096 /* ResourceLoader.swift */,
+			);
+			path = HelloTVML;
+			sourceTree = "<group>";
+		};
+		273C7F4B1E96DF7600F9D946 /* HelloTVMLTests */ = {
+			isa = PBXGroup;
+			children = (
+				273C7F4C1E96DF7600F9D946 /* HelloTVMLTests.swift */,
+				273C7F4E1E96DF7600F9D946 /* Info.plist */,
+			);
+			path = HelloTVMLTests;
+			sourceTree = "<group>";
+		};
+		273C7F561E96DF7600F9D946 /* HelloTVMLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				273C7F571E96DF7600F9D946 /* HelloTVMLUITests.swift */,
+				273C7F591E96DF7600F9D946 /* Info.plist */,
+			);
+			path = HelloTVMLUITests;
+			sourceTree = "<group>";
+		};
+		86AB9E2E185A3357E82870B6 /* Static App */ = {
+			isa = PBXGroup;
+			children = (
+				273C7F651E96FE6400F9D946 /* main.js */,
+			);
+			path = "Static App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		273C7F391E96DF7500F9D946 /* HelloTVML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273C7F5C1E96DF7600F9D946 /* Build configuration list for PBXNativeTarget "HelloTVML" */;
+			buildPhases = (
+				273C7F361E96DF7500F9D946 /* Sources */,
+				273C7F371E96DF7500F9D946 /* Frameworks */,
+				273C7F381E96DF7500F9D946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloTVML;
+			productName = HelloTVML;
+			productReference = 273C7F3A1E96DF7500F9D946 /* HelloTVML.app */;
+			productType = "com.apple.product-type.application";
+		};
+		273C7F471E96DF7600F9D946 /* HelloTVMLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273C7F5F1E96DF7600F9D946 /* Build configuration list for PBXNativeTarget "HelloTVMLTests" */;
+			buildPhases = (
+				273C7F441E96DF7600F9D946 /* Sources */,
+				273C7F451E96DF7600F9D946 /* Frameworks */,
+				273C7F461E96DF7600F9D946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				273C7F4A1E96DF7600F9D946 /* PBXTargetDependency */,
+			);
+			name = HelloTVMLTests;
+			productName = HelloTVMLTests;
+			productReference = 273C7F481E96DF7600F9D946 /* HelloTVMLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		273C7F521E96DF7600F9D946 /* HelloTVMLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273C7F621E96DF7600F9D946 /* Build configuration list for PBXNativeTarget "HelloTVMLUITests" */;
+			buildPhases = (
+				273C7F4F1E96DF7600F9D946 /* Sources */,
+				273C7F501E96DF7600F9D946 /* Frameworks */,
+				273C7F511E96DF7600F9D946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				273C7F551E96DF7600F9D946 /* PBXTargetDependency */,
+			);
+			name = HelloTVMLUITests;
+			productName = HelloTVMLUITests;
+			productReference = 273C7F531E96DF7600F9D946 /* HelloTVMLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		273C7F321E96DF7500F9D946 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Barry Bryant";
+				TargetAttributes = {
+					273C7F391E96DF7500F9D946 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					273C7F471E96DF7600F9D946 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 273C7F391E96DF7500F9D946;
+					};
+					273C7F521E96DF7600F9D946 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 273C7F391E96DF7500F9D946;
+					};
+				};
+			};
+			buildConfigurationList = 273C7F351E96DF7500F9D946 /* Build configuration list for PBXProject "HelloTVML" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 273C7F311E96DF7500F9D946;
+			productRefGroup = 273C7F3B1E96DF7500F9D946 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				273C7F391E96DF7500F9D946 /* HelloTVML */,
+				273C7F471E96DF7600F9D946 /* HelloTVMLTests */,
+				273C7F521E96DF7600F9D946 /* HelloTVMLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		273C7F381E96DF7500F9D946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273C7F421E96DF7600F9D946 /* Assets.xcassets in Resources */,
+				273C7F661E96FE6400F9D946 /* main.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273C7F461E96DF7600F9D946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273C7F511E96DF7600F9D946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		273C7F361E96DF7500F9D946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273C7F3E1E96DF7500F9D946 /* AppDelegate.swift in Sources */,
+				86AB93FC5CC555585B4D9ED2 /* ResourceLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273C7F441E96DF7600F9D946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273C7F4D1E96DF7600F9D946 /* HelloTVMLTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273C7F4F1E96DF7600F9D946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273C7F581E96DF7600F9D946 /* HelloTVMLUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		273C7F4A1E96DF7600F9D946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 273C7F391E96DF7500F9D946 /* HelloTVML */;
+			targetProxy = 273C7F491E96DF7600F9D946 /* PBXContainerItemProxy */;
+		};
+		273C7F551E96DF7600F9D946 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 273C7F391E96DF7500F9D946 /* HelloTVML */;
+			targetProxy = 273C7F541E96DF7600F9D946 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		273C7F5A1E96DF7600F9D946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		273C7F5B1E96DF7600F9D946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		273C7F5D1E96DF7600F9D946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HelloTVML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barrybryant.HelloTVML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		273C7F5E1E96DF7600F9D946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = HelloTVML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barrybryant.HelloTVML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		273C7F601E96DF7600F9D946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HelloTVMLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barrybryant.HelloTVMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloTVML.app/HelloTVML";
+			};
+			name = Debug;
+		};
+		273C7F611E96DF7600F9D946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HelloTVMLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barrybryant.HelloTVMLTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloTVML.app/HelloTVML";
+			};
+			name = Release;
+		};
+		273C7F631E96DF7600F9D946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HelloTVMLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barrybryant.HelloTVMLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HelloTVML;
+			};
+			name = Debug;
+		};
+		273C7F641E96DF7600F9D946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HelloTVMLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.barrybryant.HelloTVMLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HelloTVML;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		273C7F351E96DF7500F9D946 /* Build configuration list for PBXProject "HelloTVML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273C7F5A1E96DF7600F9D946 /* Debug */,
+				273C7F5B1E96DF7600F9D946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		273C7F5C1E96DF7600F9D946 /* Build configuration list for PBXNativeTarget "HelloTVML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273C7F5D1E96DF7600F9D946 /* Debug */,
+				273C7F5E1E96DF7600F9D946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		273C7F5F1E96DF7600F9D946 /* Build configuration list for PBXNativeTarget "HelloTVMLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273C7F601E96DF7600F9D946 /* Debug */,
+				273C7F611E96DF7600F9D946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		273C7F621E96DF7600F9D946 /* Build configuration list for PBXNativeTarget "HelloTVMLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273C7F631E96DF7600F9D946 /* Debug */,
+				273C7F641E96DF7600F9D946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 273C7F321E96DF7500F9D946 /* Project object */;
+}
